@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.form-control::-moz-placeholder { color: #177159; } 
+.form-control::-webkit-input-placeholder { color: #177159; } 
+.form-control:-moz-placeholder { color: #177159; } 
+.form-control::-moz-placeholder { color: #177159; } 
+.form-control:-ms-input-placeholder { color: #177159; } 
+.form-control::-ms-input-placeholder { color: #177159; } 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*MIS ESTILOS*/
+@media screen and (min-width: 1200px) {
+    h3.tittles {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    h5.tittleServices {
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: bold;
+    }
+    p.paragraphServices {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    p.paragraphServices2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    p.paragraph {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    img.logo {
+        width: 165px;
+	    height: 57px;
+    }
+    i.icons {
+        font-size: 32px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    h3.tittles {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    h5.tittleServices {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    p.paragraphServices {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    p.paragraphServices2 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    p.paragraph {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    img.logo {
+        width: 132px;
+        height: 45px;
+        margin-top: 5px;
+    }
+    i.icons {
+        font-size: 25px;
+    }
+    div.navBarIcons {
+        margin: 10px 0 0 8px;
+    }
+    p.iconP {
+        font-size: 14px;
+    }
+  }
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #177159;
+    font-style: normal;
+}
+
+.tittles {
+	font-family: 'Playfair Display', serif;
+	font-weight: 500;
+	margin-top: 15px;
+}
+
+.tittleServices {
+    line-height: 36px;
+}
+
+.paragraphServices {
+    line-height: 16px;
+}
+
+img.map {
+    width: 100%;
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+.centered {
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    background-color: #177159 !important;
+}
+
+.largeInput {
+    height: 100px;
+}
+
+html, footer {
+    color: white;
+    background-color: #177159;
+}
+
+.socialIcons {
+    display: inline-block;
+    *display: inline; /* for older IE */
+    *zoom: 1; /* for older IE */
+    margin-right: 5px;
+}
+
+.navBar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:white;
+	z-index: 1;
+	height: 70px;
+	width: 100%;
+    padding-top: 5px;
+}
+
+.icons, .iconsText {
+    text-decoration: none;
+	color:#177159;
+}
+
+.navBarIcons {
+	display: inline-block;
+    *display: inline; /* for older IE */
+    *zoom: 1; /* for older IE */
+	margin: 5px 0 0 20px;
+	text-align: center;
+	align-items: center;
+}
+
+.marginBottom {
+	margin-bottom: 15px;
+}
+
+.carousel1 {
+    color: white;
+    background-color: #177159;
+    position: absolute;
+    top: -180px;
+    padding: 10px;
+    left: 0;
+}
+
+.bannerPlants {
+    width: 100%;
+}
+
+.border {
+    border-bottom: solid #177159 !important;
+   border-top: transparent !important;
+   border-left: transparent !important;
+   border-right: transparent !important;
+}
